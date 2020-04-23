@@ -5,17 +5,18 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-    typing 1.5s steps(40, end),
-    blink-caret .65s
+    typing 4.0s steps(40, end),
+    blink-caret .75s
      step-end infinite;
 }
 
 .wrapper{
-    width: 460px;
+    width: 750px;
     margin: 0 auto;
 }
 
 .feature-box {
+  font-size: 4rem;
   text-align: center;
   padding: 5%;
 }
