@@ -16,7 +16,13 @@ img{
   z-index: -1;
   position: fixed;
 }
-
+.h{
+  color:#a6a6a6; font-size:2rem;
+}
+.h:hover{
+  color: white;
+  text-shadow: 2px 2px 4px #ffcc00;
+}
 @media (max-width : 1500px){
   img{
     top: 40%;
