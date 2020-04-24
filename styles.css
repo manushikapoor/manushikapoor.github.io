@@ -10,12 +10,21 @@
      step-end infinite;
 }
 
+
 img{
    background-repeat: no-repeat;
    width: 100vw;
   z-index: -1;
   position: fixed;
 }
+.o{
+  color:#ffcc00;
+}
+.o:hover{
+  color: black;
+  text-decoration: none;
+}
+
 .h{
   color:#a6a6a6; font-size:2rem;
 }
