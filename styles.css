@@ -12,14 +12,18 @@
 
 img{
    background-repeat: no-repeat;
-   width: 100%;
+   width: 100vw;
   z-index: -1;
   position: fixed;
 }
 
-@media (max-width : 900px){
+@media (max-width : 1500px){
   img{
-    margin-top: 400px;
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    width: 100vw;
+   z-index: -1;
+   position: fixed;
   }
 }
 
