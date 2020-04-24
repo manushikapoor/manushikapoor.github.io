@@ -17,6 +17,12 @@ img{
   position: fixed;
 }
 
+@media (max-width : 900px){
+  img{
+    margin-top: 400px;
+  }
+}
+
 .wrapper{
     width: 750px;
     margin: 0 auto;
