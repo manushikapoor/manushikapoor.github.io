@@ -19,7 +19,7 @@ img{
 
 @media (max-width : 1500px){
   img{
-    top: 50%;
+    top: 45%;
     background-repeat: no-repeat;
     width: 100vw;
    z-index: -1;
