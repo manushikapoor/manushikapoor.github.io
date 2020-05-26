@@ -34,11 +34,8 @@ img{
 }
 @media (max-width : 1500px){
   img{
-    top: 40%;
-    background-repeat: no-repeat;
-    width: 100vw;
-   z-index: -1;
-   position: fixed;
+    display: none;
+  
   }
 }
 
