@@ -11,11 +11,15 @@
 }
 
 
-img{
+.z{
    background-repeat: no-repeat;
    width: 100vw;
   z-index: -1;
   position: fixed;
+}
+.q{
+  align-self: center;
+  size:30px;
 }
 .o{
   color:#ffcc00;
