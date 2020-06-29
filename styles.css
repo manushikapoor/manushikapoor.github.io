@@ -35,10 +35,21 @@ img{
 @media (max-width : 1500px){
   img{
     display: none;
-  
+
   }
 }
 
+.transbox{
+  margin: 30px;
+  background-color: #0f0f0a;
+  border:1px white;
+  opacity: 0.6;
+  border-radius: 25px;
+}
+/* .transbox p{
+  margin:5%;
+
+} */
 .wrapper{
     width: 750px;
     margin: 0 auto;
