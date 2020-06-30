@@ -43,6 +43,15 @@
   }
 }
 
+.anchor{
+  text-decoration: none;
+  font-size:1.2rem;
+  color:white;
+}
+.anchor:hover{
+  text-decoration: none;
+  color:#a6a6a6;
+}
 .transbox{
   margin: 30px;
 
