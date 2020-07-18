@@ -3,12 +3,23 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b05e1d3118.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script>
+     $(function() {
+          AOS.init();
+     });
+</script>
     <title>Manushi Kapoor</title>
   </head>
   <body style="background-color:#000000">
@@ -72,7 +83,9 @@ Download CV</button></a>
 <section id="exp" >
   <!-- #1C00ff00 -->
 <br >
-  <div class="container transbox"><br >
+  <div class="container transbox" data-aos="flip-left"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000"><br >
 
     <h1 style="font-size:3rem;color:#ffffff">EXPERIENCE</h1>
     <br>
@@ -98,10 +111,11 @@ Download CV</button></a>
   </div>
   <br>
 </section>
-<section style="background-color:#000000">
+<section style="background-color:#000000" >
 <br><br>
 
-<div class="container transbox" id="edu">
+<div class="container transbox" id="edu" data-aos="fade-up"
+     data-aos-duration="1500">
   <br >
   <h1 style="font-size:3rem;color:#ffffff">EDUCATION</h1>
   <br>
@@ -130,13 +144,19 @@ Download CV</button></a>
 </div>
 <br>
 </section>
+<section >
 
-<div class="container transbox" id="s">
+
+<div class="container transbox" id="s" data-aos="flip-right"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+
+
   <br >
   <!-- <hr color="#a6a6a6"> -->
   <h1 style="font-size:3rem;color:#ffffff">SKILLS</h1>
   <br>
-  <div style="text-align:center; ">
+  <div style="text-align:center; " >
     <img style="width:150px;" src="consult.png" alt="">
   </div>
   <br>
@@ -152,9 +172,12 @@ Download CV</button></a>
   <br>
   <!-- <hr color="#a6a6a6"> -->
 </div>
-<section style="background-color:#000000">
+</section>
+<section style="background-color:#000000" >
   <br>
-<div class="container transbox" id="p">
+<div class="container transbox" id="p" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
   <br >
   <h1 style="font-size:3rem;color:#ffffff">PROJECTS</h1>
   <br>
